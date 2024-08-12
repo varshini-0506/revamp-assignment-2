@@ -1,0 +1,36 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:400px;
+    height: 600px;
+    color: white;
+}
+
+.para1{
+    width:80%;
+    text-align: center;
+}
+
+h3,.para{
+    align-self: flex-start;
+}
+
+button{
+    color: white;
+    background-color: orange;
+}
+
+.line{
+    text-decoration: underline;
+    font-size: 10px;
+    text-align: center;
+}
